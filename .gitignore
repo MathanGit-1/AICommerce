@@ -1,0 +1,51 @@
+# Ignore global system/IDE files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore Python cache and envs
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.env
+
+# Ignore Node.js dependencies
+AICommerce_ui/node_modules/
+AICommerce_ui/.env
+
+# Ignore .NET build output
+AICommerce_api/WebAPI/bin/
+AICommerce_api/WebAPI/obj/
+AICommerce_api/WebAPI/*.user
+AICommerce_api/WebAPI/*.suo
+
+# Ignore Visual Studio / JetBrains / VS Code settings
+.vscode/
+.idea/
+
+# Ignore Docker build artifacts
+**/Dockerfile.*
+**/*.pid
+**/tmp/
+**/*.sock
+
+# Ignore Python virtual environments (if created)
+venv/
+AICommerce_api/AIService/venv/
+
+# Ignore compiled/temporary files in general
+*.db
+*.sqlite
+*.bak
+*.swp
+*.TMP
+.vs/
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.db
+*.log
+*.DS_Store
+.env

@@ -1,0 +1,13 @@
+product_id,name,category,brand,price
+P100,Dell XPS 13,Laptop,Dell,1249.99
+P101,Alienware M15,Gaming Laptop,Dell,2199.0
+P102,Dell UltraSharp 27,Monitor,Dell,679.0
+P103,Dell Inspiron 14,Laptop,Dell,699.99
+P104,Dell G15,Gaming Laptop,Dell,899.5
+P105,Dell KM5221W Keyboard,Accessory,Dell,49.99
+P106,Dell MS3320W Mouse,Accessory,Dell,39.99
+P107,Dell XPS 15,Laptop,Dell,1549.99
+P108,Alienware X17,Gaming Laptop,Dell,2899.0
+P109,Dell P2422H,Monitor,Dell,259.0
+P110,Dell Dock WD19,Accessory,Dell,169.0
+P111,Dell Latitude 7420,Laptop,Dell,1399.0
