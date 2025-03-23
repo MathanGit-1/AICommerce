@@ -1,4 +1,6 @@
+using AICommerce.AICommerce_api.Controllers;
 using AICommerce.WebAPI.Data.Repository;
+using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient<RecommendationController>();
+
 
 // Add services to the container
 builder.Services.AddControllers();
@@ -13,6 +17,11 @@ builder.Services.AddControllers();
 //Repositories injection
 builder.Services.AddSingleton<IProductRepository, ProductRepository>();
 
+builder.Services.AddSingleton<IMongoClient>(sp =>
+{
+    var connectionString = "mongodb://localhost:27017";
+    return new MongoClient(connectionString);
+});
 
 var app = builder.Build();
 
