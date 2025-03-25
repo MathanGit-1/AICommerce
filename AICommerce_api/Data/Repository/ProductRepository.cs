@@ -1,5 +1,4 @@
 ﻿using MongoDB.Driver;
-using AICommerce.AICommerce_api.Models;
 
 namespace AICommerce.WebAPI.Data.Repository
 {

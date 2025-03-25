@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/Login';
 import Sidebar from './components/Sidebar';
 import ProductRecommendations from './pages/ProductRecommendations';
@@ -25,9 +25,14 @@ if (!userId && window.location.pathname !== '/login') {
           <Header />
           <div className="p-4 flex-1">
           <Routes>
+          <Route path="/login" element={<Login />} />
             {/* <Route path="/" element={<Products />} /> */}
-            <Route path="/recommendations" element={<ProductRecommendations />} />
-            {/* <Route path="/sentiment" element={<SentimentAnalysis />} />
+            <Route
+  path="/recommendations"
+  element={
+    localStorage.getItem('userId') ? <ProductRecommendations /> : <Navigate to="/login" replace />
+  }
+/>            {/* <Route path="/sentiment" element={<SentimentAnalysis />} />
             <Route path="/fraud" element={<FraudDetection />} />
             <Route path="/pricing" element={<DynamicPricing />} />
             <Route path="/forecast" element={<SalesForecasting />} />

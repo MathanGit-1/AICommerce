@@ -1,5 +1,4 @@
-﻿using AICommerce.AICommerce_api.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace AICommerce.WebAPI.Data.Repository

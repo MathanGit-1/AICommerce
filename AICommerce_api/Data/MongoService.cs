@@ -1,6 +1,4 @@
 ﻿using MongoDB.Driver;
-using Microsoft.Extensions.Configuration;
-using AICommerce.AICommerce_api.Models;
 
 public class MongoService
 {

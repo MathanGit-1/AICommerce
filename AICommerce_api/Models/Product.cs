@@ -1,27 +1,25 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Bson;
+﻿using Newtonsoft.Json;
 
-namespace AICommerce.AICommerce_api.Models
+public class Product
 {
-    public class Product
-    {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }
+    [JsonProperty("id")] // Comes from FastAPI as ObjectId string
+    public string Id { get; set; }
 
-        [BsonElement("product_id")]
-        public string ProductId { get; set; }
+    [JsonProperty("product_id")]
+    public string ProductId { get; set; }
 
-        [BsonElement("name")]
-        public string Name { get; set; }
+    [JsonProperty("name")]
+    public string Name { get; set; }
 
-        [BsonElement("category")]
-        public string Category { get; set; }
+    [JsonProperty("category")]
+    public string Category { get; set; }
 
-        [BsonElement("brand")]
-        public string Brand { get; set; }
+    [JsonProperty("brand")]
+    public string Brand { get; set; }
 
-        [BsonElement("price")]
-        public double Price { get; set; }
-    }
+    [JsonProperty("price")]
+    public double Price { get; set; }
+
+    [JsonProperty("image_url")]
+    public string Image_url { get; set; }
 }

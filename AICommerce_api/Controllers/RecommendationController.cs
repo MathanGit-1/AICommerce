@@ -1,5 +1,4 @@
-﻿using AICommerce.AICommerce_api.Models;
-using AICommerce.WebAPI.Data.Repository;
+﻿using AICommerce.WebAPI.Data.Repository;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using Newtonsoft.Json;
@@ -47,27 +46,34 @@ namespace AICommerce.AICommerce_api.Controllers
         [HttpGet("{userId}")]
         public async Task<IActionResult> GetRecommendedProducts(string userId)
         {
-            var allViews = await _userInteractionCollection
-                .Find(x => x.UserId == userId && x.EventType == "view")
-                .ToListAsync();
-            var lastView = allViews.OrderByDescending(x => DateTime.ParseExact(
-                    x.Timestamp, "dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture))
-                .FirstOrDefault();
+            try
+            {
+                var allViews = await _userInteractionCollection
+                    .Find(x => x.UserId == userId && x.EventType == "view")
+                    .ToListAsync();
+                var lastView = allViews.OrderByDescending(x => DateTime.ParseExact(
+                        x.Timestamp, "dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture))
+                    .FirstOrDefault();
 
-            if (lastView == null)
-                return NotFound("No viewed product found");
-            var productId = lastView.ProductId;
+                if (lastView == null)
+                    return NotFound("No viewed product found");
+                var productId = lastView.ProductId;
 
-            var response = await _httpClient.GetAsync($"http://localhost:8001/recommend/{productId}");
-            if (!response.IsSuccessStatusCode)
-                return StatusCode((int)response.StatusCode, "AI Service error");
+                var response = await _httpClient.GetAsync($"http://localhost:8001/recommend/{productId}");
+                if (!response.IsSuccessStatusCode)
+                    return StatusCode((int)response.StatusCode, "AI Service error");
 
-            var content = await response.Content.ReadAsStringAsync();
-            var jsonObject = JsonConvert.DeserializeObject<JObject>(content);
-            var recommendedProducts = jsonObject["recommended_products"].ToObject<List<Product>>();
+                var content = await response.Content.ReadAsStringAsync();
+                var jsonObject = JsonConvert.DeserializeObject<JObject>(content);
+                var recommendedProducts = jsonObject["recommended_products"].ToObject<List<Product>>();
 
 
-            return Ok(recommendedProducts);
+                return Ok(recommendedProducts);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
