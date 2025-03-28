@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext'; // ✅ Import useAuth
 
 const Login = () => {
   const [userId, setUserId] = useState('');
   const navigate = useNavigate();
+  const { login } = useAuth(); // ✅ Get login from AuthContext
 
   const handleLogin = () => {
     if (userId.trim() === '') return alert('Please enter a User ID');
-    localStorage.setItem('userId', userId);
-    navigate('/'); // redirect to Products page
+    login(userId); // ✅ Sets both localStorage + context state
+    navigate('/recommendations'); // ✅ Redirect after login
   };
 
   return (

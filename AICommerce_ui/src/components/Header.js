@@ -1,12 +1,13 @@
 import React from 'react';
+import { useAuth } from '../context/AuthContext';
 
 const Header = () => {
-  const handleLogout = () => {
-    localStorage.removeItem('userId');
-    window.location.href = '/login'; // redirect to login
-  };
+  const { userId, logout } = useAuth();
 
-  const userId = localStorage.getItem('userId');
+  const handleLogout = () => {
+    logout();
+    window.location.href = '/login'; // optional: or use navigate if using useNavigate()
+  };
 
   return (
     <header className="bg-white shadow p-4 flex justify-between items-center">
