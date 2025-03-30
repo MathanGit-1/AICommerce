@@ -42,11 +42,11 @@ const ProductRecommendations = () => {
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {recommendations.map((product) => (
-            <div key={product.id} className="border rounded p-3 shadow">
+            <div key={product.id} className="border rounded p-3 shadow h-72 flex flex-col justify-between">
               <img
                 src={product.image_url || '/images/placeholder.png'}
                 alt={product.name}
-                className="w-full h-32 object-cover mb-2"
+                className="w-full h-40 object-contain mb-2"
               />
               <h4 className="font-semibold">{product.name}</h4>
               <p className="text-gray-600">₹{product.price}</p>

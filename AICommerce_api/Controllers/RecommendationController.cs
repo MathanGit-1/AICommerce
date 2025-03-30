@@ -4,6 +4,7 @@ using MongoDB.Driver;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Globalization;
+using System.Net.Http;
 
 namespace AICommerce.AICommerce_api.Controllers
 {
@@ -81,7 +82,7 @@ namespace AICommerce.AICommerce_api.Controllers
         {
             try
             {
-                var response = await _httpClient.GetAsync($"http://localhost:8001/AIRecommendedProducts/{userId}");
+                var response = await _httpClient.GetAsync($"http://localhost:8000/AIRecommendedProducts/{userId}");
                 if (!response.IsSuccessStatusCode)
                     return StatusCode((int)response.StatusCode, "AI Service error");
 

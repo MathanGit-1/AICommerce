@@ -5,6 +5,8 @@ import ProductRecommendations from './pages/ProductRecommendations';
 import Header from './components/Header';
 import ProtectedRoute from './ProtectedRoute';
 import { useAuth } from './context/AuthContext';
+import SentimentAnalysis from './pages/SentimentAnalysis';
+
 
 // ✅ Inner App component so we can use useLocation() safely
 function AppContent() {
@@ -25,6 +27,14 @@ function AppContent() {
               element={
                 <ProtectedRoute>
                   <ProductRecommendations />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/sentiment"
+              element={
+                <ProtectedRoute>
+                  <SentimentAnalysis />
                 </ProtectedRoute>
               }
             />
