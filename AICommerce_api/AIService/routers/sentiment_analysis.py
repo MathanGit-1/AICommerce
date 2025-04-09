@@ -2,11 +2,15 @@ from fastapi import APIRouter
 from pymongo import MongoClient
 from transformers import pipeline
 import pandas as pd
+import os
 
 router = APIRouter()
 
 # Mongo DB setup
-client = MongoClient("mongodb://localhost:27017")
+# Access the MongoDB URI from environment variable
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://new-mongodb:27017")  # Default to localhost if not set
+
+client = MongoClient(MONGO_URI)
 db = client["AICommerceDB"]
 collection = db["reviews"]
 

@@ -2,7 +2,7 @@ import pandas as pd
 from pymongo import MongoClient
 
 #connect to mongo DB
-client = MongoClient('localhost', 27017)
+client = MongoClient('localhost', 27018)
 db = client['AICommerceDB']
 
 #Load the products data from csv into mongoDB

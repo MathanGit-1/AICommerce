@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+
+  react-ui:
+    build:
+      context: ./AICommerce_ui
+    ports:
+      - "3000:80"
+    depends_on:
+      - webapi
+
+  webapi:
+    build:
+      context: ./AICommerce_api
+    ports:
+      - "5152:8080"
+    depends_on:
+      - aiservice
+    environment:
+      - MONGO_URI=mongodb://new-mongodb:27017
+
+  aiservice:
+    build:
+      context: ./AICommerce_api/AIService
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URI=mongodb://new-mongodb:27017
+
+  new-mongodb:
+    image: mongo:latest
+    container_name: new-mongodb
+    volumes:
+      - aicommerce_mongo_data:/data/db
+    ports:
+      - "27018:27017"
+    networks:
+      - aicommerce_default
+
+volumes:
+  aicommerce_mongo_data:
+    external: true
+
+networks:
+  aicommerce_default:
+    external: true

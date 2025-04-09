@@ -1,12 +1,15 @@
 from fastapi import APIRouter
 from pymongo import MongoClient
 from collections import defaultdict
+import os
 
 router = APIRouter()
 
 @router.get("/")  # ✅ This is needed
 def sentiment_by_product():
-    client = MongoClient("mongodb://localhost:27017")
+    # Access the MongoDB URI from environment variable
+    MONGO_URI = os.getenv("MONGO_URI", "mongodb://new-mongodb:27017")  # Default to localhost if not set
+    client = MongoClient(MONGO_URI)
     db = client["AICommerceDB"]
     reviews = db["reviews"].find({"sentiment": {"$exists": True}})
 

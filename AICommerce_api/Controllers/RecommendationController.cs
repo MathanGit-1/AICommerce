@@ -82,7 +82,8 @@ namespace AICommerce.AICommerce_api.Controllers
         {
             try
             {
-                var response = await _httpClient.GetAsync($"http://localhost:8000/AIRecommendedProducts/{userId}");
+                var response = await _httpClient.GetAsync($"http://aiservice:8000/AIRecommendedProducts/{userId}");
+                //var response = await _httpClient.GetAsync($"http://localhost:8000/AIRecommendedProducts/{userId}");
                 if (!response.IsSuccessStatusCode)
                     return StatusCode((int)response.StatusCode, "AI Service error");
 
