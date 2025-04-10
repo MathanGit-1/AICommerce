@@ -59,3 +59,4 @@ const ProductRecommendations = () => {
 };
 
 export default ProductRecommendations;
+

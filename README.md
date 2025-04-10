@@ -4,7 +4,8 @@ Welcome to **AICommerce** – an intelligent full-stack e-commerce platform powe
 This project simulates a real-world enterprise system combining modern web development with AI capabilities.
 
 ![AICommerce Screenshot](assets/product_recommendations.png)
-![AICommerce Screenshot](assets/Customer feedback insights.png)
+
+![AICommerce Screenshot](assets/Customer_feedback_insights.png)
 
 ---
 
