@@ -6,9 +6,13 @@ router = APIRouter()
 
 @router.get("/")
 def sentiment_summary():
-    # Access the MongoDB URI from environment variable
-    MONGO_URI = os.getenv("MONGO_URI", "mongodb://new-mongodb:27017")  # Default to localhost if not set
-    client = MongoClient(MONGO_URI)
+    # Mongo DB setup
+    #Enable below 2 lines if you want to use docker-compose for MongoDB
+    # MONGO_URI = os.getenv("MONGO_URI", "mongodb://new-mongodb:27017")  # Default to localhost if not set
+    # client = MongoClient(MONGO_URI)
+        
+    client = MongoClient("mongodb://localhost:27017")
+    
     db = client["AICommerceDB"]
     reviews = list(db["reviews"].find({"sentiment": {"$exists": True}}))
 

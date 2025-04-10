@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from productRecommendation import ProductRecommendationModel
 from routers import sentiment_summary, sentiment_by_product
+from routers import sentiment_analysis
 
 app = FastAPI()
 
@@ -14,3 +15,4 @@ def AIRecommendedProducts(user_id: str):
 app.include_router(sentiment_summary.router, prefix="/sentiment_summary")
 app.include_router(sentiment_by_product.router, prefix="/sentiment_analysis")
 app.include_router(sentiment_by_product.router, prefix="/sentiment_by_product")
+app.include_router(sentiment_analysis.router, prefix="/sentiment")

@@ -24,7 +24,7 @@ const ProductSentimentBarChart = () => {
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={chartData}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="product_id" />
+          <XAxis dataKey="product_name" />
           <YAxis />
           <Tooltip />
           <Legend />

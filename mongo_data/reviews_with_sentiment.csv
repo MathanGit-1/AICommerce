@@ -1,0 +1,101 @@
+_id,user_id,product_id,review_text,rating,timestamp,sentiment,confidence
+40eca06123d551d1ba1313bf,U109,P103,How avoid top minute available police certainly something source group near item gas employee.,4.8,2025-04-10T17:29:50.767401,POSITIVE,0.12
+462023445ecc385793e011e6,U118,P103,Song main reality mother poor without history especially theory staff beautiful nation seven.,3.8,2025-04-10T17:29:50.767450,POSITIVE,0.12
+28e6c9f7111a97591b028142,U107,P107,Relate north hair material either meeting compare.,2.3,2025-04-10T17:29:50.767482,NEGATIVE,0.87
+26a77f9644bdd45e2e489849,U108,P100,Feel crime human current old card carry civil mouth purpose development read person.,2.1,2025-04-10T17:29:50.767513,POSITIVE,0.12
+c28950deea64b0b020df6953,U111,P106,Rather activity try wind campaign sing language which.,4.5,2025-04-10T17:29:50.767542,POSITIVE,0.87
+cbd52bc52a6023f466ac2e3a,U100,P107,North bill approach crime heart including only commercial tonight central nature however even recently within somebody.,2.4,2025-04-10T17:29:50.767572,NEGATIVE,0.23
+7a8efc07efa4b9ca7c38d0eb,U116,P110,Attorney data very myself morning stop personal road son that table.,3.2,2025-04-10T17:29:50.767601,POSITIVE,0.23
+7a0a54044d8993fc821ba531,U116,P111,Quality various such specific want page style well peace form art.,3.3,2025-04-10T17:29:50.767635,NEGATIVE,0.91
+34ab1d1b781b79c380deb1d2,U112,P100,Middle investment until magazine lawyer decide money.,2.3,2025-04-10T17:29:50.767664,NEGATIVE,0.91
+d681eb9281ce458b96a4deb7,U110,P101,Mention agree similar down key rock social person lawyer perform certain despite.,4.5,2025-04-10T17:29:50.767693,POSITIVE,0.91
+ae3a6dd9368e64d3e2947a77,U105,P104,Term bag true should allow wind air keep method fish husband girl mean area.,2.8,2025-04-10T17:29:50.767721,NEGATIVE,0.12
+7c43b8690388fe0374e57bdd,U103,P111,Firm first shake structure treat thousand serve reality after scientist bit people management compare.,4.4,2025-04-10T17:29:50.767749,NEGATIVE,0.12
+20716d088bc1a93eaf96ae82,U110,P111,Up director point scene likely practice science message wear suddenly example agreement push gun.,4.5,2025-04-10T17:29:50.767783,NEGATIVE,0.23
+24bb479a2c67310176c5d69b,U119,P106,Little interest feel get begin along write film alone anything very heart voice believe especially.,3.0,2025-04-10T17:29:50.767812,POSITIVE,0.87
+3c72bf52e44c0060b371e39d,U101,P104,Soldier responsibility style about area east keep executive create enough figure especially music follow consider.,3.0,2025-04-10T17:29:50.767838,POSITIVE,0.87
+058ed48db3a75507debffa5e,U108,P104,Up identify light north give hit sell.,3.4,2025-04-10T17:29:50.767862,POSITIVE,0.91
+0a2e67408ccdc31e9ae4c549,U113,P109,Nice PM during way enough wife draw common task hot set size check when also.,4.2,2025-04-10T17:29:50.767890,POSITIVE,0.12
+a5325dc33e7b992a859fc41c,U112,P102,Mouth then character during western behavior thousand agency bill open.,4.9,2025-04-10T17:29:50.767919,NEGATIVE,0.91
+f61547321b36c23768ac650f,U119,P101,Yeah any town fund simple sometimes or far.,4.0,2025-04-10T17:29:50.767964,NEGATIVE,0.91
+ae56a15ee2fa00c3a0374e6c,U113,P105,I conference indeed arrive structure cup rest vote from forget.,4.7,2025-04-10T17:29:50.768025,POSITIVE,0.12
+db51b4a5c12b8eb6c58ea46c,U112,P104,To like song appear fill move author realize culture mouth account laugh soon.,2.1,2025-04-10T17:29:50.768072,NEGATIVE,0.91
+a6f4299ce315478df82dbe43,U109,P100,Fill many audience region address wish low feeling plan address account.,2.4,2025-04-10T17:29:50.768113,NEGATIVE,0.23
+83a5c8c7aa0b77d874df9ddd,U106,P111,Quite clear turn until Republican continue star plan particular fear while several decade executive positive.,2.4,2025-04-10T17:29:50.768150,POSITIVE,0.91
+40f1d43f63eb893082afeb3f,U111,P101,Resource you it share official ten responsibility.,2.3,2025-04-10T17:29:50.768176,NEGATIVE,0.12
+c8857dc4eb05a2bef35da4b8,U119,P109,Next seem now he begin act various significant produce.,4.0,2025-04-10T17:29:50.768201,POSITIVE,0.12
+6d4167ebe3b4e650b2583124,U103,P100,Us impact pattern animal program kid people discussion up.,3.1,2025-04-10T17:29:50.768228,POSITIVE,0.23
+c64239a6c6a5704102b0e0f0,U101,P103,Impact goal chair power PM natural career stock ready.,2.2,2025-04-10T17:29:50.768264,POSITIVE,0.87
+1095f1ffc90b02391f059b3a,U117,P107,Style everyone nor mention history street son whether receive party sign page born action firm environmental.,3.0,2025-04-10T17:29:50.768310,POSITIVE,0.12
+0466b725b3db7e5f8ab4b268,U107,P111,Game can present health later letter near down number.,2.4,2025-04-10T17:29:50.768357,POSITIVE,0.87
+7638fc5c76477ca0d70eb5ed,U118,P104,With keep national analysis talk out season.,4.5,2025-04-10T17:29:50.768404,NEGATIVE,0.87
+2826693d195a8be29cfd3259,U116,P103,Major spring tonight hold would positive hospital record evening possible media impact meet single line.,2.5,2025-04-10T17:29:50.768454,POSITIVE,0.91
+42b4a38360bc79dd97e04544,U106,P111,Fish tax same magazine reflect during interview most carry public hear kid lay together.,4.1,2025-04-10T17:29:50.768504,POSITIVE,0.23
+15f3cf1b1c44cfe7ea2b9681,U108,P108,Focus why our old rest truth keep white yeah question coach think.,3.7,2025-04-10T17:29:50.768552,NEGATIVE,0.91
+4c5b88d6a7dae42deaf79808,U102,P103,Available development professor explain draw central let training consider yet too again couple to technology.,2.5,2025-04-10T17:29:50.768603,NEGATIVE,0.91
+c7ebca38ac5201a682c99111,U109,P110,White expect federal low world modern green identify summer tree executive spring yeah stage gun interview.,2.6,2025-04-10T17:29:50.768655,NEGATIVE,0.12
+adb6f24224746aa3b79da960,U108,P110,Day dinner medical author adult trial then system why mind lose.,4.0,2025-04-10T17:29:50.768700,POSITIVE,0.91
+9572d75b8539cb152e4dc850,U103,P103,Book art nothing senior skill walk claim believe suggest join success eye mention.,3.0,2025-04-10T17:29:50.768751,NEGATIVE,0.87
+4a7fc39cedb0398dc2fd20e5,U102,P106,Treat decision cover computer measure develop something help.,4.7,2025-04-10T17:29:50.768795,POSITIVE,0.91
+b9f1dd710bd7f6267d9a8573,U108,P110,Whatever memory worker effect available fish home financial their science show check.,4.4,2025-04-10T17:29:50.768844,POSITIVE,0.23
+c9ad22e7cec3e3cc07c3fd6a,U111,P102,Leg kid happen who friend section above.,3.5,2025-04-10T17:29:50.768887,NEGATIVE,0.91
+5c64bdc12b0526ff2a94baf2,U101,P109,Media without actually believe mission today no natural collection half.,2.5,2025-04-10T17:29:50.768932,NEGATIVE,0.87
+389e3a50f91b6f5d7edd60d7,U117,P103,Within theory least audience focus leg approach free see play son cold picture better.,3.3,2025-04-10T17:29:50.768979,POSITIVE,0.23
+16ea9372da1dd942db52c201,U119,P100,Attorney good attorney report policy early marriage affect because property describe employee fire.,3.3,2025-04-10T17:29:50.769028,NEGATIVE,0.91
+d2b466c538fe85f2fa68c25e,U104,P108,Thousand worry fact both bit future drive example letter lot.,2.7,2025-04-10T17:29:50.769075,NEGATIVE,0.23
+0e9a2f19f33688bcae9005a5,U118,P109,Successful memory resource learn too charge care.,3.0,2025-04-10T17:29:50.769117,POSITIVE,0.91
+99448483102c718715ebeedc,U101,P106,Take head possible wish mission side local among morning plant make.,4.7,2025-04-10T17:29:50.769163,POSITIVE,0.91
+52ff01bb77cfab2b5d7490aa,U103,P108,Culture piece situation population executive example impact finish three various not so economy just expert.,4.1,2025-04-10T17:29:50.769215,NEGATIVE,0.23
+59d4e3d310d54a4fe90b4b9f,U115,P108,Factor describe sound though century contain citizen responsibility soldier resource structure poor easy see.,2.8,2025-04-10T17:29:50.769265,NEGATIVE,0.12
+6f61e64f5250e3460d38da01,U112,P105,Affect glass black push matter wear little analysis go participant PM music protect sound whatever her.,2.4,2025-04-10T17:29:50.769313,POSITIVE,0.87
+379a0a900c8d2b2ac21367e0,U113,P111,Ball it of claim drug focus watch not recent age.,4.1,2025-04-10T17:29:50.769356,POSITIVE,0.23
+d6c04cf57ee4859559f8611d,U119,P103,Call next outside catch employee accept send middle.,4.5,2025-04-10T17:29:50.769399,NEGATIVE,0.91
+69ba1c2d0339e57f6a04dbec,U104,P103,Here behavior federal woman agent choose reach pass music girl piece church view sure energy foot.,4.1,2025-04-10T17:29:50.769548,POSITIVE,0.23
+31a0b62294f04822e7860862,U115,P104,College teacher quality a fight man policy draw different college.,3.3,2025-04-10T17:29:50.769600,POSITIVE,0.91
+ce481b25d5d2fc137e478440,U113,P102,Camera run soon green thus necessary southern will discover face before west put city.,4.8,2025-04-10T17:29:50.769648,NEGATIVE,0.91
+ef7bd6d5c8edeafef786a199,U118,P101,Bank fact lawyer them little play role pay management ok arrive where ability.,3.1,2025-04-10T17:29:50.769697,POSITIVE,0.87
+a17db8c06436d1713870cb05,U113,P104,Bit high magazine less both raise authority many hand man food item own chair upon.,4.1,2025-04-10T17:29:50.769747,NEGATIVE,0.91
+94a4f42967efc26db1c85692,U119,P105,Teacher successful alone cup leave within drive design Mrs.,4.4,2025-04-10T17:29:50.769795,NEGATIVE,0.12
+679ea48a32910fc922024a19,U102,P100,Great boy reach season administration meet middle project.,3.4,2025-04-10T17:29:50.769842,NEGATIVE,0.23
+2a29a16d28757ef5d7f9bda0,U109,P107,Exist until no respond follow visit because thing phone room take particularly class point garden.,2.3,2025-04-10T17:29:50.769890,NEGATIVE,0.12
+544f271f2d0b9c99f444c083,U104,P105,Dark ready show do professional change traditional again face fund probably if address you agree.,3.3,2025-04-10T17:29:50.769940,NEGATIVE,0.12
+b611be46f690811410b96451,U116,P106,Them own particularly would husband body last phone why.,2.5,2025-04-10T17:29:50.769988,NEGATIVE,0.23
+133e4b7911b10119580d089c,U108,P100,Fight benefit itself foot daughter specific window six structure save energy country involve order run.,4.9,2025-04-10T17:29:50.770037,POSITIVE,0.12
+b81c6b15ada4c83337b740b9,U106,P104,Performance cold image newspaper avoid respond throw government modern shoulder.,4.4,2025-04-10T17:29:50.770084,NEGATIVE,0.91
+b74b185859d5c066c55bf92f,U107,P101,Surface instead deep town even finally mention sing east across physical finish number.,2.3,2025-04-10T17:29:50.770135,NEGATIVE,0.87
+5c71ab444c66c0df4db8e5dd,U111,P108,Own far unit learn specific deep at page American movement.,2.4,2025-04-10T17:29:50.770184,NEGATIVE,0.87
+2fbc0ff0409cbe32acf05c48,U116,P106,Need land field part artist for learn eight herself above very game finally space weight.,3.4,2025-04-10T17:29:50.770232,POSITIVE,0.23
+723c156e19621f4c25c879a7,U119,P103,Explain camera accept read as national skill pressure wife I.,2.4,2025-04-10T17:29:50.770278,POSITIVE,0.91
+bc92be88ac35497e92f6e2d5,U105,P103,Win bag million ten information who share yes party edge same month somebody.,2.9,2025-04-10T17:29:50.770326,POSITIVE,0.87
+7663b141ebf0c0a8e93cd0cf,U101,P104,Wish cell perhaps employee Mr step almost partner read discussion nor.,3.0,2025-04-10T17:29:50.770372,NEGATIVE,0.23
+d1eaf3a1860e386eadfced9e,U104,P100,Adult real issue sister participant team trade single catch under thousand smile suddenly.,3.9,2025-04-10T17:29:50.770419,NEGATIVE,0.12
+c5b7baaa36ffccd089542f55,U116,P110,Around law blood drug ten able still and.,3.1,2025-04-10T17:29:50.770462,POSITIVE,0.12
+7c546b61f910a5cde541d80b,U109,P105,Through deep find indicate affect out past offer ever little last.,4.0,2025-04-10T17:29:50.770507,POSITIVE,0.12
+0eb0ef12716afcefc44e68ec,U119,P110,White measure value similar subject interview eat discussion me.,3.4,2025-04-10T17:29:50.770552,NEGATIVE,0.87
+755fc30b0e1c08f89f540b55,U108,P105,Always those line remain finally best one draw wind certainly.,4.8,2025-04-10T17:29:50.770595,NEGATIVE,0.87
+c56b0315b8ecbbb8eb4a003d,U103,P103,Public door century accept question most nature.,2.3,2025-04-10T17:29:50.770636,NEGATIVE,0.91
+9d85e1a442addb72c2b21970,U118,P105,Not sort performance price age sing arm your there bring population raise return respond.,3.2,2025-04-10T17:29:50.770684,POSITIVE,0.87
+5c7363e9cd77f783c3647d39,U107,P104,Level remain hundred city Republican hope free section.,2.1,2025-04-10T17:29:50.770727,POSITIVE,0.23
+bb51d5765b222b9e3584839b,U109,P109,Best baby man by town black concern cut maybe could total machine safe since.,3.4,2025-04-10T17:29:50.770772,POSITIVE,0.91
+58670c759a284820a6ad6e54,U119,P108,Subject reason maybe store reality small mouth wind add understand toward but week television energy where.,2.4,2025-04-10T17:29:50.770820,POSITIVE,0.23
+789090459b14348880dab62a,U101,P105,Author right his production give alone write worry.,2.3,2025-04-10T17:29:50.770861,NEGATIVE,0.12
+0d41d05abbe3417906b106e5,U100,P100,Her house effort cold industry instead reality your put bar prevent clearly be support save.,4.7,2025-04-10T17:29:50.770901,POSITIVE,0.12
+a06deefb62e74e45e08afccb,U107,P101,Memory writer ok fall be test buy to beyond owner.,4.2,2025-04-10T17:29:50.770941,NEGATIVE,0.87
+89ce4cba8d59999753577eb6,U107,P101,In game long subject involve into produce.,3.5,2025-04-10T17:29:50.770981,POSITIVE,0.91
+933b612334f85cefae34c007,U117,P107,Friend success him save road between along if trouble wish.,2.2,2025-04-10T17:29:50.771023,POSITIVE,0.91
+3c32ac1c8ce708ef6566ec0e,U108,P103,Produce social big store determine apply meet power although.,2.2,2025-04-10T17:29:50.771090,NEGATIVE,0.12
+ce158cee2e5245c44827acb1,U119,P107,Effort individual evidence down large security song create degree reality along can.,4.7,2025-04-10T17:29:50.771141,NEGATIVE,0.23
+41d4f5a209a9cf16d23ff94a,U117,P108,Every law summer should hard whatever whatever time during sit listen culture film career financial.,2.1,2025-04-10T17:29:50.771183,POSITIVE,0.12
+e227ab6f44dce4811b061e26,U119,P105,I possible discuss walk standard chair case operation quickly fine.,2.8,2025-04-10T17:29:50.771225,NEGATIVE,0.91
+66b07ed5351cd048c6beaad5,U119,P107,War agree return together rise wide safe community.,3.4,2025-04-10T17:29:50.771265,NEGATIVE,0.23
+a8666ab9d29b4bd88839095c,U115,P108,Line trial material born eight protect ball lead discussion score radio white purpose.,3.8,2025-04-10T17:29:50.771306,NEGATIVE,0.91
+a8b195521051906518a1afd2,U108,P100,Network number figure whether suffer position speech beyond stock hard visit.,3.9,2025-04-10T17:29:50.771353,POSITIVE,0.12
+fb80493bb6920e7cea2ed59b,U101,P102,Production forget throw forget animal discussion yard project.,2.9,2025-04-10T17:29:50.771392,POSITIVE,0.87
+15bbc13cf05a577e0f2077e6,U109,P107,Voice special of threat need board report miss easy important right lead window help.,2.6,2025-04-10T17:29:50.771433,NEGATIVE,0.23
+8c70836b48415d629b5342c4,U108,P109,Past pretty full put indicate law until however stay it.,3.7,2025-04-10T17:29:50.771476,POSITIVE,0.23
+2f5bfef944a099781e5eeb55,U116,P100,Share make should hope that century now listen would share wind.,3.9,2025-04-10T17:29:50.771518,NEGATIVE,0.91
+a21ae803e894552b18880fcb,U100,P109,Have in account artist suddenly art general affect clearly those democratic brother off.,3.2,2025-04-10T17:29:50.771565,NEGATIVE,0.23
+1de115a85e92b025e1cf97ed,U108,P102,Issue base raise rather agree make civil authority human medical contain probably these.,4.0,2025-04-10T17:29:50.771608,POSITIVE,0.91
+9062ccb6265651a8b024a670,U111,P108,Customer lot identify item must because in hear owner interesting special group though center from.,3.1,2025-04-10T17:29:50.771656,NEGATIVE,0.87
+047d0d064db01bd4567b0c1d,U119,P109,Health cell same answer question focus including man back low cell.,4.0,2025-04-10T17:29:50.771701,NEGATIVE,0.91
+f96136cd03f9e24a19d8bda6,U113,P104,New sense sea bad trial listen catch ever send receive positive treat.,4.8,2025-04-10T17:29:50.771745,POSITIVE,0.91
